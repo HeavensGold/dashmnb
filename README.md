@@ -1,6 +1,7 @@
 Chaeplin announced no more support & updates since 2016.06.29.
 The default dashmnb server is down now.
-However, you can still use dashmnb too with your own dashd server or other public servers.
+
+However, you can still use dashmnb with your own full wallet or other public servers.
 I'm not running a public server. Please, use the tool with your own dash wallet for the moment.
 
 In addition, I'm a big fan of chaeplin's contribution for the community. Thank you!
