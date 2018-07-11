@@ -92,7 +92,7 @@ def print_mnlist(mnconfig, ipmatch, mnstatus, dashninja_cnt):
     from config import MAINNET
     if MAINNET:
         print(mnconfig.get('alias') + '\t' + mnconfig.get('ipport') + ':' +
-            ipmatch + '\t' + mnconfig.get('collateral_address') + ' ' + dashninja_cnt + ' ' + mnstatus)
+            ipmatch + '\t' + mnconfig.get('collateral_address') + ' ' + dashninja_cnt + ' ' + str(mnstatus['status']))
     else:
         print(mnconfig.get('alias') + '\t' + mnconfig.get('ipport') + ':' +
             ipmatch + '\t' + mnconfig.get('collateral_address') + ' ' + mnstatus)        
