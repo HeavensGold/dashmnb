@@ -252,10 +252,12 @@ def check_hw_wallet():
             if coin_name not in wallet_supported_coins:
                 err_msg = 'only following coins supported by wallet\n\t' + \
                     str(wallet_supported_coins)
+                '''    
                 print_err_exit(
                     get_caller_name(),
                     get_function_name(),
                     err_msg)
+                '''
 
     else:
         err_msg = "Can't run dashmnb without hw wallet"
