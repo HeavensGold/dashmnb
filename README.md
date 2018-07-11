@@ -9,6 +9,7 @@ I'm a big fan of chaeplin's contribution. Thank you!
 2018.06.29 Not maintained. Please use https://github.com/Bertrand256/dash-masternode-tool
 =========================================================================================
 
+-------------------------------------------------------------------------
 # guide to use dashmnb with trezor
 - - - -
 ## 1. read FAQ, user mannual, cryptography and web wallet
