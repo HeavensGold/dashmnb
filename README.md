@@ -5,9 +5,9 @@ I'm not running my own public server personally. So, please, use the tool at you
 
 I'm a big fan of chaeplin's contribution. Thank you!
 
-==================
+
 2018.06.29 Not maintained. Please use https://github.com/Bertrand256/dash-masternode-tool
-==================
+=========================================================================================
 
 # guide to use dashmnb with trezor
 - - - -
