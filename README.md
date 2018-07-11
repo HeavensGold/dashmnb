@@ -1,9 +1,9 @@
 Chaeplin announced no more support & updates since 2016.06.29.
-The default dashd node for dashmnb is down now.
-However, you can still use dashmnb too with your custom server or public dash nodes.
-I'm not running my own public server personally. So, please, use the tool at your own risk if you fully understand what you are doing.
+The default dashmnb server is down now.
+However, you can still use dashmnb too with your own dashd server or other public servers.
+I'm not running a public server. Please, use the tool with your own dash wallet for the moment.
 
-I'm a big fan of chaeplin's contribution. Thank you!
+In addition, I'm a big fan of chaeplin's contribution for the community. Thank you!
 
 
 2018.06.29 Not maintained. Please use https://github.com/Bertrand256/dash-masternode-tool
