@@ -57,17 +57,17 @@ In addition, I'm a big fan of chaeplin's contribution for the community. Thank y
 > 4) edit mastenode.conf  
 
 ## 5. links for installtion
-* [Ubuntu 16.04](https://github.com/chaeplin/dashmnb/tree/master/others/pics/ubuntu-16.04)
-* [Ubuntu 14.04](https://github.com/chaeplin/dashmnb/tree/master/others/pics/ubuntu-14.04)
-* [Debian 8.1](https://github.com/chaeplin/dashmnb/tree/master/others/pics/debian-8.7.1)
-* [Windows 10 / 7](https://github.com/chaeplin/dashmnb/tree/master/others/pics/windows10)
-* [Max OSX](https://github.com/chaeplin/dashmnb#1b-install-prerequisites-mac-os)
+* [Ubuntu 16.04](https://github.com/HeavensGold/dashmnb/tree/master/others/pics/ubuntu-16.04)
+* [Ubuntu 14.04](https://github.com/HeavensGold/dashmnb/tree/master/others/pics/ubuntu-14.04)
+* [Debian 8.1](https://github.com/HeavensGold/dashmnb/tree/master/others/pics/debian-8.7.1)
+* [Windows 10 / 7](https://github.com/HeavensGold/dashmnb/tree/master/others/pics/windows10)
+* [Max OSX](https://github.com/HeavensGold/dashmnb#1b-install-prerequisites-mac-os)
 
 ## 6. links for configuration
-* [configuration](https://github.com/chaeplin/dashmnb#configuration)
+* [configuration](https://github.com/HeavensGold/dashmnb/blob/master/dashlib/config.sample.mainnet.py)
 
 ## 7. trezor web wallet example
-* [trezor web wallet](https://github.com/chaeplin/dashmnb/blob/master/others/pics/trezor/README.md)
+* [trezor web wallet](https://github.com/HeavensGold/dashmnb/blob/master/others/pics/trezor/README.md)
 
 ## 8. help cmd
 * windows
