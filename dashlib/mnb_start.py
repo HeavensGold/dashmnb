@@ -39,6 +39,8 @@ def start_masternode(
 
         masternodebroadcast.append(mnbhex)
 
+        print("mnbhex : ", mnbhex)
+
     mnbsublist = [masternodebroadcast[i:i + 10]
                   for i in range(0, len(masternodebroadcast), 10)]
 
@@ -46,8 +48,6 @@ def start_masternode(
 
         vc = num_to_varint(len(mnbs)).hex()
         vm = ''.join(mnbs)
-
-        print('mnb_hex : ', vc + vm)
 
 
         verify = rpc_masternode("decode", vc + vm, access)

@@ -105,15 +105,43 @@ def make_mnb(
         last_ping_serialize_for_sig,
         mnconfig['masternode_privkey'])
 
-    work = vintx + vinno + vinsig + vinseq \
+    # ORIGINAL SEQUENCE
+    #work = vintx + vinno + vinsig + vinseq \
+    #    + ipv6map + collateral_in + delegate_in \
+    #    + num_to_varint(len(sig1) / 2).hex() + sig1 \
+    #    + work_sig_time + work_protoversion \
+    #    + vintx + vinno + vinsig + vinseq \
+    #    + last_ping_block_hash + work_sig_time \
+    #    + num_to_varint(len(sig2) / 2).hex() + sig2
+
+
+    # New Sequence for protocol # 70210 
+    work = vintx + vinno \
         + ipv6map + collateral_in + delegate_in \
         + num_to_varint(len(sig1) / 2).hex() + sig1 \
         + work_sig_time + work_protoversion \
-        + vintx + vinno + vinsig + vinseq \
+        + vintx + vinno \
         + last_ping_block_hash + work_sig_time \
         + num_to_varint(len(sig2) / 2).hex() + sig2
 
-    if protocol_version >= 70208:
+    #print("vintx :", vintx)
+    #print("vinno :", vinno)
+    ###########print("vinsig :", vinsig)
+    ###########print("vinseq :", vinseq)
+    #print("ipv6map :", ipv6map)
+    #print("collateral_in :", collateral_in)
+    #print("delegate_in :", delegate_in)
+    #print("num_to_varint(len(sig1) / 2).hex() :", num_to_varint(len(sig1) /2).hex())
+    #print("sig1 :", sig1)
+    #print("work_sig_time :", work_sig_time)
+    #print("work_protoversion :", work_protoversion)
+    #print("vintx + vinno :", vintx + vinno)
+    #print("last_ping_block_hash :", last_ping_block_hash)
+    #print("work_sig_time :", work_sig_time)
+    #print("num_to_varint(len(sig2) / 2).hex() :", num_to_varint(len(sig2) / 2).hex())
+    #print("sig2 :", sig2)
+
+    if protocol_version == 70208:
         work = work + '0001000100'
 
     #print('---> mnb hex for %s : %s\n' % (mnconfig.get('alias'), work))
